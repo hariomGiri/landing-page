@@ -1,0 +1,154 @@
+body {
+  margin-left: 120px;
+  border-radius: 5px;
+  display: block;
+}
+
+.Main {
+  background-color: rgb(33, 29, 29);
+  color: aliceblue;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 20px;
+  height: 2000px;
+  width: 1150px;
+  border-radius: 5px;
+}
+
+.cybrog input {
+  padding: 8px;
+  border-radius: 10px;
+  padding-right: 50px;
+  background-color: rgb(52, 47, 47);
+  margin-left: 100px;
+  margin-right: 200px;
+  color: rgb(156, 41, 99);
+}
+.cybrog a {
+  text-decoration: none;
+  color: rgb(94, 94, 94);
+  font-size: 20px;
+  font-style: inherit;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.cybrog a:hover {
+  color: rgb(156, 41, 99);
+}
+.Secondbox {
+  background-color: rgb(52, 44, 44);
+  height: 1750px;
+  width: 1060px;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 50px;
+}
+.background {
+  background-image: url("/pictures/moon.jpg");
+  height: 400px;
+  width: 976px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  padding-left: 80px;
+  padding-top: 60px;
+}
+.background button {
+  color: aliceblue;
+  background-color: rgb(156, 41, 99);
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+}
+.most {
+  background-color: rgb(26, 24, 24);
+  padding: 20px;
+  border-radius: 20px;
+  height: 620px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card1 {
+  width: 200px;
+  background-color: rgb(35, 34, 33);
+  padding: 20px;
+  border-radius: 10px;
+  height: 250px;
+  margin-left: 15px;
+  color: rgb(0, 237, 158);
+}
+.card1 img {
+  width: 50px;
+  border-radius: 5px;
+  margin-left: -16px;
+}
+.text {
+  margin-right: 50px;
+}
+.text2 {
+  margin-right: 50px;
+}
+.text3 {
+  margin-right: 20px;
+}
+.text4 {
+  margin-right: 65px;
+}
+.text5 {
+  margin-right: 65px;
+}
+.popular {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(0, 255, 170);
+}
+.discover {
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  background-color: rgb(58, 61, 60);
+  width: 200px;
+  border-radius: 40px;
+
+  text-align: center;
+  margin-top: -20px;
+  text-align: center;
+  margin-left: 392px;
+}
+.lastbox {
+  background-color: rgb(39, 37, 37);
+  height: 400px;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 30px;
+}
+.tab img {
+  width: 80px;
+  border-radius: 20px;
+  margin-top: -14px;
+}
+.lastbox th {
+  padding-right: 80px;
+}
+
+.lastbox h5 {
+  color: rgb(108, 105, 105);
+}
+.link {
+  text-decoration: none;
+  border: 3px rgb(52, 46, 46);
+  text-decoration: none;
+  background-color: rgb(39, 37, 37);
+  color: rgb(124, 83, 83);
+  border: 2px solid black;
+  border-color: rgb(102, 91, 79);
+
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: -20px;
+  border-radius: 30px;
+}
+.link :hover {
+  color: rgb(157, 20, 114);
+  border: 3px rgb(131, 10, 147);
+}
