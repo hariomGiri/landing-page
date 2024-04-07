@@ -1,7 +1,12 @@
 body {
-  margin-left: 120px;
-  border-radius: 5px;
-  display: block;
+  
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  
+
 }
 
 .Main {
@@ -13,6 +18,8 @@ body {
   height: 2000px;
   width: 1150px;
   border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .cybrog input {
@@ -42,6 +49,7 @@ body {
   border-radius: 10px;
   margin-top: 20px;
   padding: 50px;
+  
 }
 .background {
   background-image: url("/pictures/moon.jpg");
@@ -73,15 +81,23 @@ body {
   background-color: rgb(35, 34, 33);
   padding: 20px;
   border-radius: 10px;
-  height: 250px;
+  height: 200px;
   margin-left: 15px;
   color: rgb(0, 237, 158);
+  
+  
+ 
+ 
 }
 .card1 img {
-  width: 50px;
-  border-radius: 5px;
+  width:100%;
+  height: 100%;
   margin-left: -16px;
+  object-fit: cover;
+  
 }
+
+
 .text {
   margin-right: 50px;
 }
